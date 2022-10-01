@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+  </head>
+
+  <body>
+    <h1 class="text-center mt-5">Password Generator</h1>
+    <div class="container d-flex flex-column justify-content-center">
+      <input id="result"  class="col-lg-12 mb-5 mt-5 rounded" disabled />
+
+      <div id="settings">
+        <input type="number" class="col-lg-11 mb-3 rounded"  placeholder="type pass length" id="length" />
+        <label><input type="checkbox" id="mix"  />Mix case</label>
+      </div>
+
+      <button class="btn btn-success col-lg-12">Generate</button>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html
